@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class="html_registro">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900"rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Registro</title>
+</head>
+<body class="Registro_cliente">
+	<div class="container">
+	<div class="form_top">
+		<h2>Registro <br><span>Crear una cuenta</span></h2>
+	</div>
+	<form class="form_reg" action="">	
+		<input class="input" type="text" placeholder="&#128100; Nombre completo" required autofocus>
+		<input class="input" type="email" placeholder="&#9993; Email" required>
+		<input class="input" type="tel" placeholder="&#128222; Telefono" required>
+		<input class="input" type="text" placeholder="&#8962; Direccion" required>
+		<input class="input" type="password" placeholder="&#x1F512; Contraseña nueva" required>
+		<label for="fecha_nacimiento">Fecha de nacimiento</label>
+		<input class="input" type="date" id="fecha_nacimiento" name="trip-start" value="2021-11-13" min="" max="">
+		<input class="input" type="radio"name="genero" value="1" required>Mujer
+		<input class="input" type="radio" name="genero" value="2" required>Hombre
+
+		<div class="btn_form">
+			<input class="btn_submit" type="submit" value="Registrarte">
+			<a class="form_recover" href=""><br>¿Olvidaste la contraseña?</a>
+		</div>
+	</form>
+	</div>
+</body>
+<a href="index.html">Volver al inicio</a>
+</html>
